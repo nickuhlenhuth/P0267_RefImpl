@@ -5,5 +5,5 @@
         "ms-vscode.cpptools"
     ],
     // Run script in .devcontainer directory
-    "postCreateCommand": "sudo apt-get update && sudo apt-get install g++ gcc gdb ninja-build zip rsync -y && wget -O cmake-3.18.sh https://aka.ms/vslinuxcmake-vs16u8-x86_64 && /bin/sh ./cmake-3.18.sh --skip-license --prefix=/usr/"
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install g++ gcc gdb ninja-build zip rsync -y && sudo wget -O cmake-3.18.sh https://aka.ms/vslinuxcmake-vs16u8-x86_64 && sudo /bin/sh ./cmake-3.18.sh --skip-license --prefix=/usr/"
 }
