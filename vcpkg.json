@@ -1,0 +1,10 @@
+{
+  "name": "p0267-reflmpl",
+  "version-string": "0.0.1",
+  "dependencies": [
+    "cairo",
+    "catch2",
+    "graphicsmagick",
+    "io2d"
+  ]
+}
