@@ -1,9 +1,3 @@
 {
-    // Install CMake Tools and C++ IntelliSense Extensions
-    "extensions": [
-        "ms-vscode.cmake-tools",
-        "ms-vscode.cpptools"
-    ],
-    // Run script in .devcontainer directory
-    "postCreateCommand": "sudo apt-get update && sudo apt-get install g++-9 gcc-9 gdb ninja-build zip rsync -y && sudo wget -O cmake-3.18.sh https://aka.ms/vslinuxcmake-vs16u8-x86_64 && sudo /bin/sh ./cmake-3.18.sh --skip-license --prefix=/usr/"
+  "postCreateCommand": "devinit init"
 }
